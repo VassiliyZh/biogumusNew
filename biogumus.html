@@ -5,39 +5,44 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title>Biogumus</title>
+    <script src="js/app.js" defer></script>
 </head>
 
 <body>
     <h1 class="firstL">Биогумус</h1>
     <h2 class="firstL">Галерея</h2>
-    
-    
-    <nav>
+    <main> 
+      <nav>
         <a href="index.html">Главная</a>
         <a href="biogumus.html">Галерея</a>
         <a href="#">О сайте</a>
-    </nav>
-    <hr>
-    <i class="firstP">
+      </nav>
+      <hr>
+      <input type="str" id="name" placeholder="Введите Ваше имя:">
+      <input type="str" id="email" placeholder="Введите ваш имейл:">
+      <button onclick="app()">Ввод</button>
+      <div id="conclucion"></div>
+      <div id="conclucion1"></div>
+
+      <i class="firstP">
         Домашним цветам больше подходит раствор биогумуса. Его легче разводить и дозировать, 
         определяя нужную концентрацию. Но можно использовать и гранулированный состав из расчета 
         200 г на 1 кг земли. Жидкий концентрат разбавляют из расчета 1 ст. на 5 л воды. 
         До применения раствор тщательно перемешивают и оставляют на 24 часа в тепле. 
         Периодичность подкормки составляет 1 раз в 2–3 месяца с учетом вида растения и его 
         потребностей.<br>
-    </i>
+      </i>
 
-    <a href="https://cnwd.ru/image/cache/catalog/category_images/sadovyetovary/udobrenija/biogumus10l-500x500.jpg"><img src="https://cnwd.ru/image/cache/catalog/category_images/sadovyetovary/udobrenija/biogumus10l-500x500.jpg" alt="Биогумус" width="200"></a>
-    <a href="https://city-farmer.ru/wp-content/uploads/2021/05/%D0%A4%D0%BE%D1%82%D0%BE-%D0%B2%D0%B7%D1%8F%D1%82%D0%BE-%D1%81-botanichka.ru-%D0%B1%D0%B8%D0%BE%D0%B3%D1%83%D0%BC%D1%83%D1%81.jpg"><img src="https://city-farmer.ru/wp-content/uploads/2021/05/%D0%A4%D0%BE%D1%82%D0%BE-%D0%B2%D0%B7%D1%8F%D1%82%D0%BE-%D1%81-botanichka.ru-%D0%B1%D0%B8%D0%BE%D0%B3%D1%83%D0%BC%D1%83%D1%81.jpg" alt="Биогумус" width="300"></a><br>
-      <def>
+      <a href="https://cnwd.ru/image/cache/catalog/category_images/sadovyetovary/udobrenija/biogumus10l-500x500.jpg"><img src="https://cnwd.ru/image/cache/catalog/category_images/sadovyetovary/udobrenija/biogumus10l-500x500.jpg" alt="Биогумус" width="200"></a>
+      <a href="https://city-farmer.ru/wp-content/uploads/2021/05/%D0%A4%D0%BE%D1%82%D0%BE-%D0%B2%D0%B7%D1%8F%D1%82%D0%BE-%D1%81-botanichka.ru-%D0%B1%D0%B8%D0%BE%D0%B3%D1%83%D0%BC%D1%83%D1%81.jpg"><img src="https://city-farmer.ru/wp-content/uploads/2021/05/%D0%A4%D0%BE%D1%82%D0%BE-%D0%B2%D0%B7%D1%8F%D1%82%D0%BE-%D1%81-botanichka.ru-%D0%B1%D0%B8%D0%BE%D0%B3%D1%83%D0%BC%D1%83%D1%81.jpg" alt="Биогумус" width="300"></a><br>
+        <def>
         ____________________________________________________________________________________<br>
-      </def>  
-    Вторая страница<br>
-    <input type="int" id="weight" placeholder="Введите массу тела:">
+        </def>  
+      Вторая страница<br>
+      
     
-    <input type="int" id="height" placeholder="Введите рост:">
-    <button onclick="app()">Ввод</button>
-    <div id="result"></div>
+      
+    </main>
 </body>
 
 </html>
